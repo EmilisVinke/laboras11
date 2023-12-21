@@ -1,0 +1,44 @@
+@media print {
+    body {
+        font-family: serif; /* Nustatyti serifinį šriftą spausdinimui */
+        text-align: left;
+        filter: grayscale(100%);
+    }
+    section{
+        page-break-after: auto;
+    }
+    img {
+        display: block; /* Užtikrinti, kad paveikslai būtų rodomi kaip bloko elementai */
+        max-width: 100%; /* Padaryti paveikslus atsakomus spausdinimo puslapiui */
+        margin: 1em 0; /* Pridėti tarpą tarp paveikslų ir pastraipų */
+    }
+    .contacts-container {
+        page-break-inside:avoid;
+        margin: 1em 0; /* Pridėti tarpą tarp lentelės ir pastraipų */
+    }
+    .print-link {
+        display: none; /* Hide the print link on the printed page */
+    }
+    #navbar{
+        display: none;
+    }
+    .res_pavadinimas{
+        color: black;
+    }
+    .melyni_zodziai{
+        color: black;
+    }
+    .ikonos_dezute{
+        color: black;
+    }
+    .Ap_immage{
+        height: 450px;
+        width: auto;
+    }
+    .pr_immage{
+        display: none;
+    }
+    .navBar{
+        display: none;
+    }
+}

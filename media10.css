@@ -1,0 +1,129 @@
+@media (min-width:900px){
+ .Ap_immage{
+    height: 450px;
+    width: auto;
+    padding-right: 10px;
+ }
+ .responsive_apie{
+    display: flex; 
+ }
+ .responsive_apie2{
+ width: 800px;
+ display: flex;
+ justify-content: space-between;
+ }
+
+
+
+
+
+ .dezute_faktams{
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+ }
+
+
+
+ .diagrama{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .puse_diagramos{
+    width: 800px;
+    margin: 60px;
+ }
+
+
+
+.res_lenteles{
+    display: flex;
+    justify-content: space-between;
+}
+.res_wrap_item{
+    width: 800px;
+}
+
+.kontaktu_dezute{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ikonos_dezute{
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.info_wrap{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    position: relative;
+    left: 4.8%;
+}
+.info_wrap_item{
+    width: 49%;
+}
+#tavoVardasInput{
+    width: 100%;
+    height: 30px;
+}
+#pastasInput{
+    width: 100%;
+    height: 30px;
+
+}
+.noriu_miego{
+    display: none;
+}
+
+
+
+
+
+.Apie{
+    margin: 90px;
+}
+.FAKTAI{
+    margin: 90px;
+}
+.Igudziai{
+    margin: 90px;
+}
+.resume{
+  margin:   90px;
+}
+.Kontaktai{
+    margin: 90px;
+}
+
+
+}
+
+
+
+
+@media (max-width:900px){
+    .navBar{
+        top: 0;
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgb(137, 137, 137,0.3);
+    }
+    #zinuteInput{
+        height: 60px;
+    }
+}
